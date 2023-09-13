@@ -1,0 +1,189 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+
+  * {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;  
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a,a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-family: 'Oswald', sans-serif;
+
+  }
+
+:root {
+    --primary_color:#0771b9;
+    --secondary_color:#5bc5f3;
+    --oswald:'Oswald', sans-serif;
+}
+
+.container {
+  width: 90%;
+}
+
+                              /* Menu_Part Starts */
+.menu_part {
+  background: #fbdb00;
+}
+
+.hero_img {
+  padding-left: 350px;
+}
+.hero_img img {
+  width: 300px;
+}
+
+.hero_con_main {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.hero_icon ul li {
+  font-size: 30px;
+}
+.hero_slider  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.hero_slider span:last-child {
+  opacity: 0.5;
+}
+.hero_slider span:nth-child(2) {
+  opacity: 0.8;
+}
+.hero_slider span {
+   width: 15px;
+   height: 15px;
+   background: #fff;
+   border: 5px solid white;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-right: 10px;
+    
+}
+
+.bars {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.menu_con ul li a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #010101;
+  font-weight: 700;
+  transition: .5s;
+  display: block;
+  padding: 0 20px;
+}
+.menu_con ul li a:hover {
+  color: #555555;
+}
+.menu_con ul li {
+color:red;
+
+
+}
+
+  
+.menu_con ul {
+  justify-content: space-around;
+}
+
+                              /* Back_to_top Ends */
+.back_to_top {
+  position: fixed;
+  right: 50%;
+  bottom: 4%;
+  display: none;
+}
+
+                              /* Back_to_top Ends */
+               /* ------------------------------------------------ */
+
+
+                              /* Menu_Part Ends */
+               /* ------------------------------------------------ */
+
+
+                              /* Feature Part Starts */
+ .feature_con p {
+  font-size: 12px;
+  color: #898989;
+}
+
+.feature_icon img {
+  width:25px;
+}
+
+.feature_head p {
+  color: #313841;
+}
+
+                              /* Feature Part Ends */
+               /* ------------------------------------------------ */
+
+
+                              /* Contact Part Starts */
+.contact_part {
+  background: #010101;
+}
+
+.contact_head h4 {
+  color: #fcdb00;
+}
+
+.contact_head p {
+  color: #898989;
+}
+
+.contact_form input {
+  padding: 8px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  width: 20px;
+  
+}
+.contact_form button {
+  background: #fcdb00;
+  border-color: #fcdb00;
+}
+
+
+.contact_icon ul li a  {
+  color: #000;
+  background:#fcdb00;
+  padding: 5px;
+  border-radius: 25%;
+  display: block;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+
+}
+
+
+                              /* Contact Part Ends */
+               /* ------------------------------------------------ */
+

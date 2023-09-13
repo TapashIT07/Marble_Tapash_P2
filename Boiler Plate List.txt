@@ -1,0 +1,3 @@
+boilerplate {
+    html,css,js,responsive,bootstrap,google fonts,fontawesome
+}
