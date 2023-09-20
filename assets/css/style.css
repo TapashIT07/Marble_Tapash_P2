@@ -231,3 +231,24 @@ h6 {
                    /* --------------------------------------------------- */
 
 
+
+                      /* Back-To-Top Part Starts  */
+.back_to_top i {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(160, 32, 32);
+  border-radius: 10%;
+  background: rgb(160, 32, 32);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  position: fixed;
+  right: 600px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+                      /* Back-To-Top Part Ends  */
+         /* ------------------------------------------------ */
